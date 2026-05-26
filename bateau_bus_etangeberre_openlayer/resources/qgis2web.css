@@ -424,3 +424,9 @@ td video {
     color: orangered;
 	font-size: 15px;
 }
+
+.logo-control {
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+}
