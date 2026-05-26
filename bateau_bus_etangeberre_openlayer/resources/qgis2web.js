@@ -94,7 +94,7 @@ var Logo = new ol.control.Control({
         logoElement.innerHTML = '<img src="https://www.crige-paca.org/wp-content/uploads/2020/12/CRIGE-2021-logo-vector.svg" alt="Logo" style="max-height: 50px; max-width: 150px;">';
         return logoElement;
     })(),
-    target: 'top-left-container'
+    target: 'bottom-left-container'
 });
 map.addControl(Logo);
 
