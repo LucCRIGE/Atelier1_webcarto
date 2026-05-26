@@ -86,6 +86,18 @@ styleCursorMove();
     });
     map.addControl(bottomRightContainer)
 
+// Logo control
+var Logo = new ol.control.Control({
+    element: (() => {
+        var logoElement = document.createElement('div');
+        logoElement.className = 'logo-control ol-control';
+        logoElement.innerHTML = '<img src="https://www.crige-paca.org/wp-content/uploads/2020/12/CRIGE-2021-logo-vector.svg" alt="Logo" style="max-height: 50px; max-width: 150px;">';
+        return logoElement;
+    })(),
+    target: 'top-left-container'
+});
+map.addControl(Logo);
+
 //popup
 var container = document.getElementById('popup');
 var content = document.getElementById('popup-content');
