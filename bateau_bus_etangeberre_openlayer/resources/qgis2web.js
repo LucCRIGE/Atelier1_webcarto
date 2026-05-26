@@ -501,7 +501,7 @@ var Title = new ol.control.Control({
     element: (() => {
         var titleElement = document.createElement('div');
         titleElement.className = 'top-right-title ol-control';
-        titleElement.innerHTML = '<h2 class="project-title">Potentiels de lignes de bateau-bus sur l\'Etang de Berre</h2>';
+        titleElement.innerHTML = '<h2 class="project-title">Embarcadères et lignes potentielles de bateau-bus sur l\'Etang de Berre</h2>';
         return titleElement;
     })(),
     target: 'top-right-container'
