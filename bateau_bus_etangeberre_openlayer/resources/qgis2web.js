@@ -91,7 +91,7 @@ var Logo = new ol.control.Control({
     element: (() => {
         var logoElement = document.createElement('div');
         logoElement.className = 'logo-control ol-control';
-        logoElement.innerHTML = '<img src="bateau_bus_etangeberre_openlayer/resources/Crige-500px.png" alt="Logo" style="max-height: 50px; max-width: 150px;">';
+        logoElement.innerHTML = '<img src="https://raw.githubusercontent.com/LucCRIGE/Atelier1_webcarto/refs/heads/main/bateau_bus_etangeberre_openlayer/resources/Crige-500px.png" alt="Logo" style="max-height: 50px; max-width: 150px;">';
         return logoElement;
     })(),
     target: 'bottom-left-container'
