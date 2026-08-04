@@ -84,7 +84,7 @@ var Logo = new ol.control.Control({
         var logoElement = document.createElement('div');
         logoElement.className = 'logo-control ol-control';
 				logoElement.style.marginLeft = '60px';
-        logoElement.innerHTML = '<img src="https://raw.githubusercontent.com/LucCRIGE/Atelier1_webcarto/refs/heads/main/bateau_bus_etangeberre_openlayer/resources/logo-crige-texte.png" alt="Logo" style="max-height: 50px; max-width: 150px;">';
+        logoElement.innerHTML = '<img src="https://raw.githubusercontent.com/LucCRIGE/Atelier1_webcarto/refs/heads/main/openlayer/bateau_bus_etangeberre_openlayer/resources/logo-crige-texte.png" alt="Logo" style="max-height: 50px; max-width: 150px;">';
         return logoElement;
     })(),
     target: 'top-left-container'
